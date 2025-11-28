@@ -3,7 +3,7 @@ name = "diamond-nomenclature"
 version = "0.10.1"
 description = "Data structure definition for validation of model outputs in the HORIZON EUROPE project DIAMOND, using nomenclature-iamc"
 authors = [
-    { name = "Jan Ivar Korsbakken", email = "janko@cicero.oslo.no" }
+    { name = "Jan Ivar Korsbakken", email = "janko@cicero.oslo.no" },
     { name = "George Xexakis", email = "gxexakis@holisticsa.gr" }
 ]
 dependencies = [
