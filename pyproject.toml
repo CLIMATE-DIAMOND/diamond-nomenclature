@@ -1,9 +1,10 @@
 [project]
-name = "iamcompact-nomenclature"
+name = "diamond-nomenclature"
 version = "0.10.1"
-description = "Data structure definition for validation of model outputs in the HORIZON EUROPE project IAM COMPACT, using nomenclature-iamc"
+description = "Data structure definition for validation of model outputs in the HORIZON EUROPE project DIAMOND, using nomenclature-iamc"
 authors = [
     { name = "Jan Ivar Korsbakken", email = "janko@cicero.oslo.no" }
+    { name = "George Xexakis", email = "gxexakis@holisticsa.gr" }
 ]
 dependencies = [
     "gitpython>=3.1.44",
@@ -29,4 +30,4 @@ dev = [
 allow-direct-references = true
 
 [tool.hatch.build.targets.wheel]
-packages = ["iamcompact_nomenclature"]
+packages = ["diamond_nomenclature"]
